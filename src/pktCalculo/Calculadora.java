@@ -35,11 +35,11 @@ public class Calculadora {
 						switch(operacion) {
 						case 0: Sumar.metodoSumar(num1,num2);
 							break;
-						case 1: resta(num1, num2);
+						case 1: Restar.resta(num1, num2);
 							break;
 						case 2: multiplicacion();
 							break;
-						case 3: division();
+						case 3: Divisiones.division(num1, num2);
 							break;
 
 
