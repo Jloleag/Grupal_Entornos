@@ -53,23 +53,17 @@ public class Calculadora {
 					}
 				}while(operacion != 0); //Salimos con la opcion 0
 				System.out.println("Fin");
-
-<<<<<<< HEAD
 	}
 
 	
 	public static void resta(float num1, float num2) {
-        Scanner ent = new Scanner(System.in); // Entrada de datos
+        Scanner ent = new Scanner(System.in); 
 
         float resultado = num1 - num2;
         System.out.println("El resultado de la resta es: " + resultado);
     }
-
-    public static float metodoSumar(float num1, float num2) {
-=======
-	}	
+	
 	public static float metodoSumar(float num1, float num2) {
->>>>>>> branch 'master' of https://github.com/Jloleag/Grupal_Entornos.git
         return num1 + num2;
     }
 
