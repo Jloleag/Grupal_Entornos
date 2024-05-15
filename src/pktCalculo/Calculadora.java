@@ -55,5 +55,18 @@ public class Calculadora {
 				System.out.println("Fin");
 
 	}
+	
+	public static void resta() {
+        Scanner ent = new Scanner(System.in); // Entrada de datos
+
+        System.out.println("Introduce el primer operador");
+        float num1 = ent.nextFloat();
+
+        System.out.println("Introduce el segundo operador");
+        float num2 = ent.nextFloat();
+
+        float resultado = num1 - num2;
+        System.out.println("El resultado de la resta es: " + resultado);
+    }
 
 }
