@@ -9,6 +9,8 @@ public class Restar {
 
         float resultado = num1 - num2;
         System.out.println("El resultado de la resta es: " + resultado);
+        
+        //
     }
 
 }
