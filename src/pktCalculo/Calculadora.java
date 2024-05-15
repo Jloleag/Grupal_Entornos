@@ -8,7 +8,7 @@ public class Calculadora {
 		
 		
 		//Declaración de variables y objetos
-				float num = 0.00f, num2 = 0.00f;
+				float num1 = 0.00f, num2 = 0.00f;
 				Scanner ent = new Scanner(System.in); //Entrada de datos
 				int operacion = 0;
 				
@@ -16,7 +16,7 @@ public class Calculadora {
 				
 				do {
 					System.out.println("Introduce el primer operador");
-					num = ent.nextFloat();
+					num1 = ent.nextFloat();
 				
 					System.out.println("introducir operación: \n" +
 						"0º) Salir \n" +
@@ -34,7 +34,7 @@ public class Calculadora {
 						
 						
 						switch(operacion) {
-						case 0: suma();
+						case 0: metodoSumar(num1,num2);
 							break;
 						case 1: resta();
 							break;
@@ -55,5 +55,7 @@ public class Calculadora {
 				System.out.println("Fin");
 
 	}
-
+    public static float metodoSumar(float num1, float num2) {
+        return num1 + num2;
+    }
 }
