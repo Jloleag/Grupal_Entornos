@@ -34,7 +34,7 @@ public class Calculadora {
 						
 						
 						switch(operacion) {
-						case 0: metodoSumar(num1,num2);
+						case 0: Sumar.metodoSumar(num1,num2);
 							break;
 						case 1: resta();
 							break;
@@ -54,8 +54,8 @@ public class Calculadora {
 				}while(operacion != 0); //Salimos con la opcion 0
 				System.out.println("Fin");
 
-	}
-    public static float metodoSumar(float num1, float num2) {
+	}	
+	public static float metodoSumar(float num1, float num2) {
         return num1 + num2;
     }
 }
