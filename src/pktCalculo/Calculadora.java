@@ -55,5 +55,19 @@ public class Calculadora {
 				System.out.println("Fin");
 
 	}
+	public static void division() {
+		
+		Scanner ent =new Scanner(System.in);	
+		
+		System.out.println("Introduce el primer numero");
+		
+		float numero1=Float.parseFloat(ent.nextLine());
+		System.out.println("Introduce el segundo numero");
+		
+		float numero2=Float.parseFloat(ent.nextLine());
+		
+		System.out.println(numero1%numero2);
+		
+	}
 
 }
