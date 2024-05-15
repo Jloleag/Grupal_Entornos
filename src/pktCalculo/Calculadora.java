@@ -36,7 +36,7 @@ public class Calculadora {
 						switch(operacion) {
 						case 0: Sumar.metodoSumar(num1,num2);
 							break;
-						case 1: resta();
+						case 1: resta(num1, num2);
 							break;
 						case 2: multiplicacion();
 							break;
@@ -53,7 +53,8 @@ public class Calculadora {
 					}
 				}while(operacion != 0); //Salimos con la opcion 0
 				System.out.println("Fin");
+	}
 
-	}	
+
 
 }
