@@ -37,7 +37,7 @@ public class Calculadora {
 							break;
 						case 1: Restar.resta(num1, num2);
 							break;
-						case 2: multiplicacion();
+						case 2: Multiplicar.multiplicacion(num1, num2);
 							break;
 						case 3: Divisiones.division(num1, num2);
 							break;
